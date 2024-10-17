@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.contenedor {
+  background: gainsboro;
+  display: flex;
+  height: 50px;
+  width: max-content;
+  margin: 0 auto;
+}
+p {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button {
+  display: flex;
+  width: max-content;
+  height: auto;
+  margin: 0 auto;
+}
+.boton:hover {
+  background-color: #45a049;
+}
+.boton:active {
+  background-color: #3e8e41;
+}
